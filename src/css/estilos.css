@@ -12,10 +12,11 @@ body {
 }
 
 .cabecalho {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 15px;
+    padding: 30px 50px;
 }
 
 .cabecalho .logo {
@@ -45,7 +46,7 @@ body {
 .cabecalho .menu li a:hover {
     background-color: #9443d8;
     color: #fff;
-    border-radius: 30%;
+    border-radius: 45%;
 }
 
 .home {
@@ -67,45 +68,47 @@ body {
 
 .home .informacoes h1 {
     font-family: "Raleway", sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 20px;
 }
 
 .home .informacoes p {
     font-family: "Raleway", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     margin-bottom: 10px;
 }
 
-.home .rede-social {
-    display: flex;
-    gap: 20px;
-    padding: 24px 0;
-    font-size: 40px;
+/*social links*/
+
+#social-links {
+  display: flex;
+  gap: 10px; 
 }
 
-.home .rede-social a i {
-    border: 1px solid #fff;
-    border-radius: 50%;
-    height: 50px;
-    padding: 10px;
-    text-align: center;
-    font-size: 26px;
-    transition: 0.3s;
+#social-links a {
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  text-align: center;
+  font-size: 21px;
+  transition: 0.3s;
 }
 
-.home .rede-social a i {
-    color: #9443d8;
+#social-links a:hover{
+    color:#9443d8;
     border: 1px solid #9443d8;
     transform: scale(1.1);
 }
 
-.home .contaoner-foto .foto {
-    max-width: 450px;
+
+.home .contaner-foto .foto {
+    max-width: 400px;
     border-radius: 50%;
 }
 
-.home .contaoner-foto img {
+.home .contaner-foto img {
     width: 100%;
     border-radius: 50%;
 }
@@ -123,7 +126,7 @@ body {
 .projetos .titulo {
     text-align: center;
     padding: 60px 0;
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 500;
     text-transform: uppercase;
 
